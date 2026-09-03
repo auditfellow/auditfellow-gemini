@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "name": "auditfellow-sync",
+            "type": "command",
+            "command": "node \"${extensionPath}/scripts/sync.js\"",
+            "timeout": 55000,
+            "description": "Refreshes the AuditFellow methodology skill from your organization's pack, at most once a day."
+          }
+        ]
+      }
+    ]
+  }
+}

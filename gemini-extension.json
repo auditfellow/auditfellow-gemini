@@ -1,0 +1,14 @@
+{
+  "name": "auditfellow",
+  "version": "0.2.0",
+  "description": "Your internal audit methodology, loaded as a skill before the model writes: findings, risks, controls, workpapers, GenAI audits, data strategy and AI usage documents in your team's format. Needs an AuditFellow key (seven days free at https://auditfellow.app).",
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "AuditFellow key",
+      "description": "Your AuditFellow key (af_live_...). It binds to this machine and is checked once a day. Keys live on the Organization page at https://auditfellow.app.",
+      "envVar": "AUDITFELLOW_KEY",
+      "sensitive": true
+    }
+  ]
+}
