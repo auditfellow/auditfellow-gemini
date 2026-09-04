@@ -25,3 +25,5 @@ npx -y auditfellow@latest status
 ```
 
 License: the extension code is MIT; the methodology it downloads belongs to your organization and needs a valid key.
+
+Support: info@auditfellow.app or info@auditfellow.com. Keys and billing live at https://auditfellow.app.
