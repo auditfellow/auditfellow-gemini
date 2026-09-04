@@ -5,7 +5,7 @@ Your internal audit team's methodology, loaded as a skill the model reads before
 ## Install
 
 ```
-gemini extensions install https://github.com/dlascano911/auditfellow-gemini
+gemini extensions install https://github.com/auditfellow/auditfellow-gemini
 ```
 
 The install asks for your AuditFellow key (starts with `af_live_`). Keys live on the Organization page at https://auditfellow.app, seven days free. You can also skip it and give the key later: the first time you ask for an audit deliverable, the `auditfellow-setup` skill asks for it.
