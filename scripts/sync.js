@@ -29,7 +29,7 @@ try {
       fs.writeFileSync(STAMP, new Date().toISOString());
       out('AuditFellow: methodology installed (skill "auditfellow"). Use it for any internal audit deliverable or question.', 'AuditFellow: methodology installed.');
     } else {
-      out('AuditFellow: no key on this machine yet. When the person asks for an audit deliverable, activate the "auditfellow-setup" skill, which asks for their key (af_live_...) and installs the methodology. Keys: https://auditfellow.app (seven days free).');
+      out('AuditFellow: use the auditfellow MCP tools (call auditfellow_start first) for any internal audit deliverable or question. If the tools are not available, tell the person to run /mcp auth auditfellow and sign in with their AuditFellow account (https://auditfellow.app, free trial, no card). A key pasted in the chat also works through the "auditfellow-setup" skill.');
     }
     process.exit(0);
   }

@@ -1,13 +1,15 @@
 ---
 name: auditfellow-setup
-description: Installs the AuditFellow methodology on this machine with the person's key. Use when an internal audit deliverable is requested and the "auditfellow" skill is not installed yet, or when the person wants to activate, update or remove their AuditFellow key.
+description: Connects or installs the AuditFellow methodology on this machine. Use when an internal audit deliverable is requested and the auditfellow MCP tools are not available yet, or when the person wants to sign in, or to activate, update or remove a key for terminal use.
 ---
 
 # AuditFellow setup
 
-The methodology is delivered as the `auditfellow` skill inside this extension. It is installed with the person's AuditFellow key (starts with `af_live_`). Keys live on the Organization page at https://auditfellow.app, seven days free.
+The usual way is to sign in: the extension ships the `auditfellow` MCP server. Tell the person to run `/mcp auth auditfellow`, sign in with the email of their AuditFellow account (https://auditfellow.app, free trial, no card) and press Connect. After that the `auditfellow_start`, `auditfellow_task` and `auditfellow_knowledge` tools are available and nothing else is needed.
 
-## Install
+The alternative below installs the methodology as a local skill with a key (starts with `af_live_`), for people who prefer the terminal. Keys live on the Organization page at https://auditfellow.app.
+
+## Install with a key
 
 1. Ask for the key if it was not given. Never guess it.
 2. Run, replacing the key and keeping the quotes:
